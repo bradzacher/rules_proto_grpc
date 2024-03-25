@@ -22,7 +22,6 @@ proto_plugin(
         # "google/protobuf",
     ],
     options = [
-        "no_include",
         "extern_path=.google.protobuf=::pbjson_types",
         "compile_well_known_types",
     ],
